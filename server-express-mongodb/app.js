@@ -19,8 +19,8 @@ app.use(cors());
 app.use("/tasks", tasksRouter);
 
 //var mongoDB = "mongodb://127.0.0.1/database";
-var mongoDB =
-  "mongodb+srv://ammon:Password1%21@cluster0-lhvh5.mongodb.net/test?retryWrites=true&w=majority";
+var mongoDB = "mongodb+srv://cluster0.yvu4p.mongodb.net/Cluster0";
+//var mongoDB = "mongodb+srv://cluster0.yvu4p.mongodb.net/surtechFinal"
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
