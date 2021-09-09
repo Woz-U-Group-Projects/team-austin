@@ -7,9 +7,10 @@ import { AppComponent } from "./app.component";
 import { InfoBlocksComponent } from './info-blocks/info-blocks.component';
 import { HeadingCompComponent } from './heading-comp/heading-comp.component';
 import { NavCompComponent } from './nav-comp/nav-comp.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, InfoBlocksComponent, HeadingCompComponent, NavCompComponent],
+  declarations: [AppComponent, InfoBlocksComponent, HeadingCompComponent, NavCompComponent, FooterComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule, ],
   providers: [],
   bootstrap: [AppComponent]
