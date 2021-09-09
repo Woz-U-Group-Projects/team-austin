@@ -19,8 +19,10 @@ app.use(cors());
 app.use("/tasks", tasksRouter);
 
 //var mongoDB = "mongodb://127.0.0.1/database";
-var mongoDB = "mongodb+srv://cluster0.yvu4p.mongodb.net/Cluster0";
+//var mongoDB = "mongodb+srv://cluster0.yvu4p.mongodb.net/Cluster0";
 //var mongoDB = "mongodb+srv://cluster0.yvu4p.mongodb.net/surtechFinal"
+var mongoDB = "mongodb+srv://dbAustin:<Primerica1%21>@cluster0.8hcjt.mongodb.net/cluster0?retryWrites=true&w=majority";
+
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
