@@ -6,6 +6,7 @@
   }
   
   .flex-container > div {
+    flex: auto;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     width: 15rem;
@@ -13,4 +14,9 @@
     text-align: center;
     line-height: 2rem;
     font-size: 1rem;
+  }
+
+  .btn {
+    background-color: transparent;
+    border-color: transparent;
   }

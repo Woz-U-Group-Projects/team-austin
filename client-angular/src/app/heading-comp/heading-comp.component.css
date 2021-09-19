@@ -2,8 +2,9 @@
     text-align: center;
     margin: .75rem;
     padding: 1rem;
-    background-color: rgb(235,235,235);
+    background-color:rgb(238, 238, 238);
     font-weight: 350;
-    font-size: 3rem;
-    border-radius: 1.2rem;
+    font-size: 3.2rem;
+    border-radius: .75rem;
+    color: rgb(0, 0, 0);
   }
