@@ -1,0 +1,16 @@
+db.customers.insertMany([
+    {firstName: "Lebron", lastName: "James", yearsAsCustomer: 2},
+    {firstName: "Shaq", lastName: "Oneil", yearsAsCustomer: 4},
+    {firstName: "Larry", lastName: "Bird", yearsAsCustomer: 8},
+    {firstName: "Tiger", lastName: "Woods", yearsAsCustomer: 6}
+])
+
+db.collectionName.find({query, projection})
+
+db.customers.insertMany([
+    {},
+    {},
+    {},
+    {},
+    {}
+])
