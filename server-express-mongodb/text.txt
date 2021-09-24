@@ -14,3 +14,7 @@ db.customers.insertMany([
     {},
     {}
 ])
+
+db.customers.insertOne({
+    firstName: "Bob", lastName: "Nyquist", yearsAsCustomer: 3
+})

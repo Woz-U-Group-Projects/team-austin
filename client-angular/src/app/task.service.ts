@@ -20,14 +20,24 @@ export class TaskService {
   apiUrl: string = "http://localhost:3000/tasks";
 
   constructor(private http: HttpClient) {}
-
+  
+  //Get
   getTasks(): Observable<Task[]> {
     return this.http.get<Task[]>(this.apiUrl);
   }
-
+  //Post
   addTask(task): Observable<Task> {
     return this.http.post<Task>(this.apiUrl, task);
   }
 
-  //create update and delete functions to complete CRUD
+  //Put
+  putTask(): Observable<Task> {
+    return this.http.put<Task>(this.apiUrl, Task);
+  }
+
+  //Delete
+  deleteTask(id: number): Observable<Task> {
+    return this.http.delete<Task>(this.apiUrl + '/' + id);
+  }
+  
 }
