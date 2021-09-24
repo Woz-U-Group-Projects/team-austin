@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { InfoBlocksComponent } from './info-blocks/info-blocks.component';
+
 
 
 const routes: Routes = [];

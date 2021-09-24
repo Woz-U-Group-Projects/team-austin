@@ -18,14 +18,8 @@ h3 {
     font-size: 1.5rem;
 }
 
-.infoimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-    max-width: 100%;
-    height: auto;
-
+.quote {
+    text-align: center;
 }
 
 input {
